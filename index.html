@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/main.css" />
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header>
+            <!-- BOTONES -->
+            <section class="botones_principales">
+                <button class="boton_compras">comprar ya!</button>
+
+                <button class="boton_productos">productos</button>
+            
+                <button class="boton_servicios">servicios</button>
+            </section>
+            <h1>LOGOTIPO</h1>
+
+        </header>
+        <!-- MAIN -->
+        <main>
+          <section>
+            <!-- IMAGEN -->
+            <picture>
+                <!-- movil -->
+                <source
+                srcset="
+                     img/smartphone/camara_frente.jpg 1x,
+                     img/smartphone/camara_frente@2x.jpg 2x,
+                     img/smartphone/camara_frente@3x.jpg 3x
+                "
+                media="(min-width:300px) and (max-width:450px) and (orientation: portrait)"
+                />
+                <!-- escritorio -->
+              <source
+                srcset="
+                     img/desktop/camara_frente.jpg    1x,
+                     img/desktop/camara_frente@2x.jpg 2x
+                "
+                media="(min-width:1200px)"
+               />
+                <img class="" src="" alt="" />
+              </picture>
+
+               <!-- PARRAFO -->
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis sapien ac eget orci lectus a. Tellus integer accumsan aliquet arcu cras tristique. Semper proin porta adipiscing faucibus. Eu scelerisque ornare nunc, venenatis fringilla tincidunt consectetur.</p>
+
+            <!-- BOTON PARA MAS CONTENIDO -->
+            <button>leer más...</button>
+            </section>
+            <section>
+            <picture>
+                 <!-- movil -->
+                   <source
+                srcset="
+                     img/smartphone/camara_arriba.jpg 1x,
+                     img/smartphone/camara_arriba@2x.jpg 2x,
+                     img/smartphone/camara_arriba@3x.jpg 3x
+                "
+                media="(min-width:300px) and (max-width:450px) and (orientation: portrait)"
+              />
+                  <!-- escritorio -->
+                  <source
+                srcset="
+                    img/desktop/camara_arriba.jpg    1x,
+                    img/desktop/camara_arriba@2x.jpg 2x
+                "
+                media="(min-width:1200px)"
+              />
+              <img class="" src="" alt="" />
+
+            </picture>
+        
+        <!-- SUBTITULOS Y TEXTOS -->
+              <h3>Opcion 1</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis sapien ac eget orci lectus a.</p>
+              <h3>Opcion 2</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis sapien ac eget orci lectus a.</p>
+              <h3>Opcion 3</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis sapien ac eget orci lectus a.</p>
+              <h3>Opcion 4</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis sapien ac eget orci lectus a.</p>
+            </section>
+
+            <section>
+        <!-- IMAGEN DE LA LENTE -->
+              <picture>
+                <!-- movil -->
+                  <source
+               srcset="
+                    img/smartphone/lente.jpg 1x,
+                    img/smartphone/lente@2x.jpg 2x,
+                    img/smartphone/lente@3x.jpg 3x
+               "
+               media="(min-width:300px) and (max-width:450px) and (orientation: portrait)"
+             />
+                 <!-- escritorio -->
+                 <source
+               srcset="
+                   img/desktop/lente.jpg    1x,
+                   img/desktop/lente@2x.jpg 2x
+               "
+               media="(min-width:1200px)"
+             />
+             <img class="" src="" alt="" />
+             </picture
+            </section>
+          </main>
+        <!-- FOOTER -->
+        <footer>
+          <!-- SOBRE LA EMPRESA -->
+          <section>
+            <ul>
+              <li>empresa</li>
+              <li>quienes somos</li>
+              <li>historia</li>
+            </ul>
+            <!-- SERVICIOS -->
+            <ul>
+              <li>comunidad</li>
+              <li>eventos</li>
+              <li>blog</li>
+              <li>foros</li>
+            </ul>
+          </section>
+          <section>
+        <!-- CONTACTO -->
+
+          <ul>
+            <li>contactar</li>
+            <li>formularios</li>
+            <li>+34 666 66 66 66</li>
+          </ul>
+          <!-- REDES SOCIALES -->
+          <ul>
+            <li>redes</li>
+            <li>
+              <button>Facebook</button>
+            </li>
+            <li>
+              <button>Twitter</button>
+            </li>
+            <li>
+              <button>Instagram</button>
+            </li>
+          </ul>
+          </section>
+
+          <!-- FORMULARIO Y BOTON SUSCRIPCION-->
+          <form action="" class="formulario">
+            <input type="email" placeholder="tu email">
+            <button>noticias</button>
+          </form>
+          <h6 class="copyright">&copy;Copyright 2021 - Examen Aliad Junio</h6>
+        </footer>
+    </body>
+</html>
