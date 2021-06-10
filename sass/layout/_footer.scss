@@ -1,5 +1,40 @@
 /* @FOOTER */
 /* ********** */
+/* FOOTER */
 footer{
-    background-color: #C4C4C4;
+    background-color: map-get($colores, gris);
+}
+
+.lis_footer{
+    display: flex;
+    flex-direction: row;
+    @media only screen and (min-width:360px) and (max-width:450px) and (orientation: portrait){
+        flex-direction: column;
+        text-align: center;
+    }
+    justify-content: space-between;
+
+
+}
+.formulario{
+    display: flex;
+    align-items: center;
+
+    button{
+        background-color: map-get($colores, naranja);
+        color: map-get($colores, blanco);
+        border-style: none;
+        border-radius: 11px;
+    }
+}
+.copyright{
+    text-align: center;
+    @media only screen and (min-width:360px) and (max-width:450px) and (orientation: portrait){
+
+    }
+    @media only screen and (min-width:360px) and (max-width:450px) and (orientation:portrait){
+        .copyright{
+            justify-content: center;
+        }
+    }
 }

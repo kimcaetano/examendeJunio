@@ -1,23 +1,8 @@
 /* @BOTONES */
 /* ********** */
 
-.boton_compras{
-    
-    border: none;
-    background-color: #F2624A;
-}
-
-.boton_productos, .boton_servicios{
-    border: none;
-    background-color: #FFE6D1;
-}
-.boton_info{
-    border: none;
-    background-color: #F2624A;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-}
-.boton_noticias{
-    border: none;
-    background-color: #F2624A; 
+.btn{
+    padding: 1rem;
+    color: map-get($colores, blanco);
+    background-color: map-get($colores, naranja);
 }

@@ -1,11 +1,22 @@
 /* @VARIABLES */
 /* ********** */
 
+/* TAMAÑOS */
+$breakpoints:(
+    smartphone: 320px,
+    ipad: 768px,
+    desktop: 1100px
+);
+$dispositivos: (
+    smartphone: 360px,
+    ipad: 768px,
+    desktop: 1366px
+);
 /* COLORES */
 
 $colores: (
-    colorHeader: #FFE6D1,
-    colorMain: #F8F6EE,
-    colorFooter: #C4C4C4,
-    colorBotones: #F2624A
+    beige: #FFE6D1,
+    blanco: #F8F6EE,
+    gris: #C4C4C4,
+    naranja: #F2624A
 );

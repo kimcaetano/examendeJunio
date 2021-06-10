@@ -1,0 +1,13 @@
+/* @MAIN */
+/* ********** */
+.foto_camara{
+    display: flex;
+    flex-direction: row;
+    @media only screen and (min-width:360px) and (max-width:450px) and (orientation:portrait) {flex-direction: column;}
+
+}
+.foto_lente{
+    display: flex;
+    flex-direction: row;
+    @media only screen and (min-width:360px) and (max-width:450px) and (orientation:portrait) {flex-direction: column;}
+}

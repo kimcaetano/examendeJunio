@@ -1,2 +1,53 @@
 /* @HEADERS */
 /* ********** */
+header{
+    display: flex;
+    flex-direction: row;
+}
+.menu_header, .banner{
+    display: flex;
+    flex-direction: row;
+    @media only screen and (min-width:360px) and (max-width:450px) and (orientation:portrait){
+        flex-direction: column;
+    
+}
+}
+.menu_header{
+    display: flex;
+    flex-direction: column;
+    a{
+        background-color: map-get($colores,beige );
+    }
+    @media only screen and (min-width:360px) and (max-width:450px) and (orientation:portrait)
+}
+.menu_header{
+    justify-content: center;
+    align-items: center;
+
+    nav a{
+        color: map-get($colores,negro);
+    }
+    nav{
+        flex-basis:1300px;
+        @media only screen and (min-width:360px) and (max-width:450px) and (orientation:portrait) 
+        {flex-basis:0px;
+            text-align: center;
+    }
+    .botonn{
+        justify-self: flex-end;
+    }
+}
+
+.banner{
+    background-color: map-get($colores, naranja);
+
+    h1{
+        font-size: 60px;
+    }
+    .banner_izq{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+}
